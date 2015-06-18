@@ -136,7 +136,7 @@ define(function (require, exports, module) {
                                 brackets.app.openLiveBrowser(object.link, false);
                             });
                             
-                            $("#close-se-search").one('click',function(){
+                            $("#close-se-search").on('click',function(){
                                 $(".se-search").remove();
                                 $("#second-pane .pane-content").children().show();
                                 $("#second-pane .not-editor").hide();
